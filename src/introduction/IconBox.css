@@ -1,0 +1,24 @@
+.icon-box {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+.icon-box a {
+    text-decoration: none;
+    color: var(--light-slate);
+    cursor: pointer;
+}
+
+.icon-box a ion-icon {
+    height: 2.6rem;
+    width: 2.6rem;
+    text-align: center;
+    vertical-align: middle;
+    transition: all ease 0.3s;
+}
+
+.icon-box a:hover {
+    color: var(--green);
+}

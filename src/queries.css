@@ -1,0 +1,310 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1248 ie 78 * 16 (Smaller desktops) */
+/**************************/
+
+@media(max-width: 78em) {
+
+    .grid--2-col {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+        min-width: 0;
+
+    }
+
+    .container {
+        max-width: 90rem;
+        margin: 6.4rem auto;
+    }
+
+    /* ASIDE FIGURE GOES TO TOP */
+
+    .intro-pos {
+        position: unset;
+        height: auto;
+    }
+
+    .introduction {
+        width: 100%;
+        /* flex-direction: row;
+        justify-content: space-between; */
+        padding: 1rem 0;
+        /* display: flex; */
+        gap: 0;
+        /* padding-left: 2rem; */
+    }
+
+
+
+    .icon-box {
+        flex-direction: column;
+    }
+
+    .introduction--top-box {
+        flex-direction: row;
+        gap: 2rem;
+        justify-self: flex-start;
+        align-self: flex-start;
+        padding: 2rem 3rem;
+    }
+
+    .show-contact-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        gap: var(--fs-16);
+        align-items: flex-end;
+        gap: 2rem;
+        /* align-items: center; */
+        justify-content: center;
+        padding: 0.5rem 1.5rem;
+        border-bottom-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        background-color: var(--navy);
+        border: 0.5rem solid var(--navy);
+        /* transition: 0.3s ease-in-out; */
+    }
+
+    .show-contact-btn:hover {
+        border: 0.5rem solid var(--dark-green);
+    }
+
+    .show-contact-btn ion-icon {
+        font-size: var(--fs-26);
+        opacity: 0.9;
+    }
+
+    .show-contact {
+        font-size: var(--fs-18);
+        font-weight: 500;
+        opacity: 0.9;
+    }
+
+    .icon-box {
+        padding-right: 1rem;
+        position: absolute;
+        top: 5.5rem;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: var(--fs-16);
+        align-items: flex-end;
+    }
+
+    .icon-box a ion-icon {
+        height: 2.2rem;
+        width: 2.2rem;
+    }
+
+    .empty {
+        display: none;
+    }
+
+    .introduction--cart-box {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 4rem;
+        display: grid;
+    }
+
+    .notExpanded {
+        display: none;
+    }
+
+    .expanded {
+        display: block;
+    }
+
+}
+
+/* 
+    BELOW ::::: 62em * 16 = 992 px
+    */
+@media(max-width: 62em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .container {
+        max-width: 80rem;
+        margin: 3.2rem auto;
+    }
+
+    .grid--2-col {
+        /* grid-template-columns: 1fr; */
+        row-gap: 2.4rem;
+    }
+
+    .information {
+        padding-top: 2rem;
+    }
+
+    .grid--3-col {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4rem;
+        row-gap: 3.2rem;
+        padding: 2rem;
+    }
+}
+
+/* 
+    BELOW ::::: 49em * 16 = 784 px
+*/
+
+@media(max-width: 49em) {
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        max-width: 70rem;
+        margin-top: 10rem;
+    }
+
+    /* INTRODUCTION */
+
+    .icon-box a ion-icon {
+        height: 2.4rem;
+        width: 2.4rem;
+    }
+
+    /* ABOUT ME */
+    .grid--2-col-equal {
+        grid-template-columns: 1fr;
+        row-gap: var(--fs-20);
+    }
+
+    .doing--cards {
+        /* align-items: flex-start; */
+        justify-content: flex-start;
+    }
+
+
+    /* SHIFTING NAV TO BOTTOM */
+
+    .nav-shift {
+        position: fixed;
+        top: 0;
+        /* top: calc(100vh);
+        transform: translateY(-100%); */
+        opacity: 0.7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        z-index: 9999;
+
+    }
+
+    .navBar {
+        width: inherit;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.2rem;
+    }
+
+    .navBar--link {
+        color: var(--lighest-slate);
+
+    }
+
+
+    /* CONTACT FORM  */
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .form * {
+        width: inherit;
+    }
+
+    .btn {
+        align-self: stretch;
+    }
+
+    /* PROJECT */
+
+    .projectCart {
+        grid-template-columns: 1fr;
+    }
+
+    .projectCart--info--img-cont--enter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projectCart--info--img {
+        width: 60%;
+        height: auto;
+        /* height: 25rem; */
+    }
+
+}
+
+/* 
+    BELOW ::::: 37em * 16 = 592 px
+    */
+
+@media(max-width:37em) {
+    .container {
+        width: 60rem;
+    }
+
+    /* NAV BAR */
+    .show-contact {
+        display: none;
+    }
+
+    .icon-box {
+        padding-right: 2.2rem;
+    }
+
+    .grid--3-col {
+        padding: 0;
+    }
+
+    .resumeCardPallete--info--title {
+        line-height: 1.1;
+    }
+
+    .navBar {
+        font-size: var(--fs-20);
+    }
+}
+
+/* 
+    BELOW ::::: 34em * 16 = 544 px
+*/
+
+@media(max-width:34em) {
+    body {
+        padding: 2rem 0;
+
+    }
+
+    .grid--2-col {
+        /* margin-right: 0;
+        margin-left: 3.5rem; */
+        /* width: 3rem; */
+        padding: 0;
+    }
+
+    /* NAV BAR */
+
+    .nav-shift {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    /* RESSUME */
+
+    .grid--3-col {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+    }
+}

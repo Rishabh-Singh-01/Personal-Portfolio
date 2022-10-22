@@ -1,0 +1,19 @@
+.about-me--heading {
+    color: var(--light-slate);
+    font-size: var(--fs-32);
+    font-weight: 700;
+}
+
+.underline {
+    height: 0.5rem;
+    width: 8rem;
+    border-radius: 9999rem;
+    /* margin-top: 0.5rem; */
+    background-color: var(--green);
+    opacity: 0.75;
+}
+
+.about-me--generalInfo {
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}

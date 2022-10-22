@@ -1,0 +1,11 @@
+.resumeCard {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.resumeCard--body {
+    display: block;
+    flex-direction: column;
+    gap: 1rem;
+}

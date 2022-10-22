@@ -1,0 +1,45 @@
+.information {
+    position: relative;
+    background-color: var(--light-navy);
+    padding: 3rem;
+    border-radius: 2.4rem;
+    overflow: hidden;
+}
+
+.navBar {
+    text-decoration: none;
+    list-style: none;
+    background-color: var(--navy);
+    padding: 2rem 4rem;
+
+    display: flex;
+    gap: 3rem;
+    border-bottom-left-radius: 2.4rem;
+    margin: 0;
+    font-weight: 500;
+    font-size: var(--fs-18);
+
+
+}
+
+.nav-shift {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navBar--link {
+    text-decoration: none;
+    color: var(--lighest-slate);
+    transition: all 0.3s ease-in;
+}
+
+
+.navBar--link:hover {
+    color: var(--green);
+}
+
+.active {
+    color: var(--green);
+    text-decoration: underline;
+}

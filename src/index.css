@@ -1,0 +1,43 @@
+:root {
+  --navy: #0a182e;
+  --some-navy: hsl(218, 58%, 16%);
+  --light-navy: #233044;
+  --lightest-navy: #233554;
+  --green: #64ffda;
+  --dark-green: #3c9983;
+  --navy-shadow: rgba(2, 12, 27, 0.7);
+  --lighest-slate: #ccd6f6;
+  --light-slate: #a8b2d1;
+  /* above one used as main */
+  --slate: #8892b0;
+  --white: #e6f1ff;
+  --border-gradient-onyx: linear-gradient(to top left, hsl(0, 0%, 25%) 0%, #233044 70%);
+  --bg-gradient-jet: linear-gradient(to bottom right, #0a182e 0% 0%, hsl(216, 32%, 20%) 80%), hsl(240, 94%, 14%);
+  --bg-gradient-jet-inverse: linear-gradient(to top left, hsl(216, 65%, 11%) 0% 0%, #233044 80%), hsl(240, 94%, 14%);
+  --fs-14: 1.4rem;
+  --fs-16: 1.6rem;
+  --fs-18: 1.8rem;
+  --fs-20: 2rem;
+  --fs-26: 2.6rem;
+  --fs-32: 3.6rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--navy);
+  color: var(--light-slate);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

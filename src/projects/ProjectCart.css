@@ -1,0 +1,79 @@
+.projectCart {
+    display: grid;
+    grid-template-columns: 0.65fr 0.35fr;
+    column-gap: 3.2rem;
+    background: var(--bg-gradient-jet-inverse);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.projectCart--info {
+    padding: 2.4rem;
+}
+
+.projectCart--info--head {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.projectCart--info--head ion-icon {
+    height: var(--fs-32);
+    width: var(--fs-32);
+    color: var(--green);
+}
+
+.projectCart--info--head span {
+    margin: 0;
+    color: var(--lighest-slate);
+}
+
+.projectCart--info--details {
+    list-style-type: none;
+    font-size: var(--fs-14);
+    color: var(--slate);
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.projectCart--info--img-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectCart--info--img-cont--enter {
+    overflow: hidden;
+    position: relative;
+}
+
+.projectCart--info--img {
+    width: 100%;
+    height: auto;
+    transition: all 1s ease;
+}
+
+.hovered {
+    transform: scale(1.1);
+    backdrop-filter: blur(100px);
+    opacity: 0.25;
+}
+
+.displayed {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.notDisplayed {
+    display: none;
+}
+
+.projectCart--info--img-cont ion-icon {
+    font-size: var(--fs-32);
+    color: var(--green);
+}

@@ -1,0 +1,92 @@
+.map {
+    width: inherit;
+    height: 40rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    filter: blur(0.3rem) grayscale(20%);
+    transition: all 0.3s ease-in-out;
+}
+
+.map:hover {
+    filter: none;
+}
+
+/*  INDEX CSS */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form {
+    display: flex;
+    gap: 4rem;
+}
+
+input,
+textarea {
+    width: 50rem;
+    height: 5.6rem;
+    border-radius: 1rem;
+    background-color: var(--navy);
+    border-style: none;
+    padding: 0 0 0 2rem;
+    font-family: poppins;
+    font-size: var(--fs-20);
+    color: var(--white);
+    border: 5px solid var(--navy);
+    transition: all 0.3s ease-out;
+
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 5px solid var(--dark-green);
+    transition: all 0.3s ease-in;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: poppins;
+    font-size: var(--fs-18);
+    color: var(--slate);
+    opacity: 0.8;
+}
+
+textarea {
+    width: auto;
+    height: 15rem;
+    padding: 1rem 0 0 2rem;
+    resize: vertical;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: auto;
+    height: auto;
+    font-size: 2.2rem;
+    padding: 1rem 2rem;
+    background-color: var(--navy);
+    color: var(--light-slate);
+    font-weight: 600;
+    font-family: poppins;
+    border-radius: 1rem;
+    align-self: flex-end;
+    transition: all 0.3s ease-in-out;
+    border-style: none;
+}
+
+.btn ion-icon {
+    font-size: var(--fs-26);
+    transform: rotate(-45deg);
+}
+
+.btn:hover {
+    color: var(--green);
+}

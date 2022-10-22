@@ -1,0 +1,28 @@
+.intro-cart {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.intro-cart--icon {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--green);
+    font-size: 2rem;
+    box-shadow: var(--shadow-1);
+    background: var(--border-gradient-onyx);
+}
+
+.intro-cart--info span {
+    color: var(--slate);
+    font-size: var(--fs-14);
+}
+
+.intro-cart--info div {
+    color: var(--white);
+    font-size: var(--fs-16);
+}
