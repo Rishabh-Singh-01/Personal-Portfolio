@@ -69,9 +69,10 @@ textarea {
     justify-content: center;
     gap: 1rem;
     width: auto;
-    height: auto;
-    font-size: 2.2rem;
-    padding: 1rem 2rem;
+    height: 6.6rem;
+    font-size: 2.4rem;
+    /* border: 5px solid var(--navy); */
+    padding: 0 3rem;
     background-color: var(--navy);
     color: var(--light-slate);
     font-weight: 600;

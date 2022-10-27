@@ -6,7 +6,7 @@ const AboutMe = function () {
         <div className="about-me">
             <span className="about-me--heading">About Me</span>
             <div className="underline"></div>
-            <p className="about-me--generalInfo">
+            <div className="about-me--generalInfo">
                 I'm a final year student currently doing my B.Tech majoring in Electronics and Communication Engineering from Jaypee Institute of Information Technology,Noida.
                 <br />
                 <br />
@@ -18,7 +18,7 @@ const AboutMe = function () {
                 Ohh! Please don't shy away from looking while you are here and feel free me to contact me anytime for anything. Now I will stop rambling about myself since you might be getting bored :(
                 <br />
                 Peace !!!!!!!!
-            </p>
+            </div>
             <Doing />
         </div>
     )

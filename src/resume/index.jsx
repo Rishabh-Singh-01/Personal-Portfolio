@@ -82,14 +82,17 @@ const Resume = () => {
     ]
     return (
         <div className="Resume">
-            <div >
+            <div>
                 <span className="about-me--heading">Resume</span>
                 <div className="underline"></div>
                 <p className="about-me--generalInfo">
-                    Ohh! Hi again, I see you have stumbled upon my resume. This brief resume contains majorly my education and experience.For complete resume, please download the same using the button given below.
+                    Ohh! Hi again, I see you have stumbled upon my resume. This brief resume contains majorly my education and experience.For complete resume, please view/download the same using the button given below.
                     <br />
-                    PS: Its a safe link, well I atleast hope so (´。＿。｀)
+                    PS: Its a safe link, well I atleast hope so, but for your safety I would rather suggest you to just take a look at the preview of the same. (´。＿。｀)
                 </p>
+                <div style={{ display: "flex", alignItems: "center", justifyItems: "flex-end" }}>
+                    <a href="https://drive.google.com/file/d/1rvC78ng3jArGrkC7BnODRugL4zp2Qfyc/view?usp=sharing" style={{ backgroundColor: "var(--navy)", padding: "1rem 2rem", textDecoration: "none", color: "var(--green)", borderRadius: "1rem", marginLeft: "auto", marginRight: "0" }} target="_blank" rel="noopener noreferrer">Preview</a>
+                </div>
             </div>
             <div className="grid grid--1-col">
                 {resumeObjs.map((i, ind) => <ResumeCard intel={i} key={ind} />)}

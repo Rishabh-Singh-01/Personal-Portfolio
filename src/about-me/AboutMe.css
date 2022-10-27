@@ -2,6 +2,9 @@
     color: var(--light-slate);
     font-size: var(--fs-32);
     font-weight: 700;
+    line-height: 1;
+    display: block;
+    margin-bottom: 0.5rem;
 }
 
 .underline {
@@ -16,4 +19,5 @@
 .about-me--generalInfo {
     letter-spacing: 0.5px;
     line-height: 1.6;
+    margin-top: 2rem;
 }

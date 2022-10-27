@@ -18,25 +18,24 @@ const Information = () => {
                 <nav className="nav-shift ">
                     <ul className="navBar">
                         <li>
-                            <NavLink className="navBar--link" to="/about">About Me</NavLink>
+                            <NavLink className="navBar--link" end to="/">About Me</NavLink>
                         </li>
                         <li>
-                            <NavLink className="navBar--link" to="/resume">Resume</NavLink>
+                            <NavLink className="navBar--link" end to="/resume">Resume</NavLink>
                         </li>
                         <li>
-                            <NavLink className="navBar--link" to="/projects">Projects</NavLink>
+                            <NavLink className="navBar--link" end to="/projects">Projects</NavLink>
                         </li>
                         <li>
-                            <NavLink className="navBar--link" to="/contact">Contact Me</NavLink>
+                            <NavLink className="navBar--link" end to="/contact">Contact Me</NavLink>
                         </li>
                     </ul>
                 </nav>
                 <Routes>
                     <Route path="/" element={<AboutMe />} />
-                    <Route path="/about" element={<AboutMe />} />
-                    <Route path="/resume" element={<Resume />} />
-                    <Route path="/projects" element={<Projects />} />
-                    <Route path="/contact" element={<ContactMe />} />
+                    <Route path="resume" element={<Resume />} />
+                    <Route path="projects" element={<Projects />} />
+                    <Route path="contact" element={<ContactMe />} />
                 </Routes>
             </Router>
         </div>
