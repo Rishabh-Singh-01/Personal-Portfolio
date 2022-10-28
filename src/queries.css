@@ -130,7 +130,7 @@
 
     .container {
         max-width: 90vw;
-        margin: 3.2rem auto;
+        margin: inherit auto;
     }
 
     .grid--2-col {
@@ -148,6 +148,11 @@
         row-gap: 3.2rem;
         /* padding: 2rem */
     }
+
+    /* .toggle-container {
+        top: 1rem;
+        right: 1rem;
+    } */
 }
 
 /* 
@@ -195,7 +200,7 @@
         align-items: center;
         justify-content: center;
         width: 100vw;
-        z-index: 9999;
+        z-index: 99;
 
     }
 
@@ -277,6 +282,13 @@
         font-size: var(--fs-18);
     }
 
+    .toggle-container ion-icon {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
 }
 
 /* 
@@ -323,7 +335,14 @@
     .map {
         height: 35rem;
     }
+
+    .toggle-container ion-icon {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
 }
+
 
 /* 
     BELOW ::::: 34em * 16 = 544 px
@@ -401,10 +420,6 @@
         align-self: center;
     }
 
-    /* .nav-shift {
-        display: none;
-    } */
-
     .showSmallerMobiles {
         display: contents;
     }
@@ -415,7 +430,6 @@
         padding-left: 0;
         padding-right: 0;
     }
-
 
 
 

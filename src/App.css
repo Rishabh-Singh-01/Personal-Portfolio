@@ -58,3 +58,24 @@ body::-webkit-scrollbar-thumb:hover {
     width: 100%;
     height: 100%;
 }
+
+/* TOGGLE BAR */
+
+.toggle-container {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: fit-content;
+    height: fit-content;
+    /* transform: rotateZ(-90deg); */
+    z-index: 999;
+}
+
+.toggle-container ion-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.toggle-container ion-icon:hover {
+    cursor: pointer;
+}

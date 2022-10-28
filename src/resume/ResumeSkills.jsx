@@ -1,9 +1,9 @@
-import "./ResumeSkills.css";
+
 
 const ResumeSkills = ({ content }) => {
     const SkillShow = function ({ values }) {
         return (
-            <div style={{ color: "var(--green)", backgroundColor: "#010130", padding: "0.8rem 1.6rem", borderRadius: "2rem" }}>{values}</div>
+            <div style={{ color: "var(--green)", backgroundColor: "var(--background-small)", padding: "0.8rem 1.6rem", borderRadius: "2rem" }}>{values}</div>
         )
     }
     return (

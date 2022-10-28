@@ -1,7 +1,7 @@
 import ResumeCard from "./ResumeCard";
 import ResumeSkills from "./ResumeSkills";
 
-import "./index.css";
+
 
 const Resume = () => {
     const resumeObjs = [

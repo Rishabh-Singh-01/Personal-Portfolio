@@ -1,4 +1,13 @@
 :root {
+  --fs-14: 1.4rem;
+  --fs-16: 1.6rem;
+  --fs-18: 1.8rem;
+  --fs-20: 2rem;
+  --fs-26: 2.6rem;
+  --fs-32: 3.6rem;
+}
+
+[data-theme="dark"] {
   --navy: #0a182e;
   --some-navy: hsl(218, 58%, 16%);
   --light-navy: #233044;
@@ -6,6 +15,7 @@
   --green: #64ffda;
   --dark-green: #3c9983;
   --navy-shadow: rgba(2, 12, 27, 0.7);
+  --background-small: #010130;
   --lighest-slate: #ccd6f6;
   --light-slate: #a8b2d1;
   /* above one used as main */
@@ -14,12 +24,25 @@
   --border-gradient-onyx: linear-gradient(to top left, hsl(0, 0%, 25%) 0%, #233044 70%);
   --bg-gradient-jet: linear-gradient(to bottom right, #0a182e 0% 0%, hsl(216, 32%, 20%) 80%), hsl(240, 94%, 14%);
   --bg-gradient-jet-inverse: linear-gradient(to top left, hsl(216, 65%, 11%) 0% 0%, #233044 80%), hsl(240, 94%, 14%);
-  --fs-14: 1.4rem;
-  --fs-16: 1.6rem;
-  --fs-18: 1.8rem;
-  --fs-20: 2rem;
-  --fs-26: 2.6rem;
-  --fs-32: 3.6rem;
+}
+
+[data-theme="light"] {
+  --navy: #fff;
+  --some-navy: rgb(108, 117, 125);
+  --light-navy: #d3d8de;
+  --lightest-navy: #6c757d;
+  --green: #39a388;
+  --dark-green: #28725f;
+  --navy-shadow: rgb(108, 117, 125, 0.7);
+  --background-small: #fff;
+  --lighest-slate: #000;
+  --light-slate: #333;
+  /* above one used as main */
+  --slate: #4d4d4d;
+  --white: #222;
+  --border-gradient-onyx: linear-gradient(to top left, rgb(108, 117, 125, 0.5), rgb(173, 181, 189, 0.4));
+  --bg-gradient-jet: linear-gradient(to bottom right, rgb(108, 117, 125, 0.4), #adb5bd);
+  --bg-gradient-jet-inverse: linear-gradient(to top left, rgb(108, 117, 125, 0.4), #adb5bd);
 }
 
 html {
