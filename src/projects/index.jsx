@@ -14,7 +14,7 @@ const Projects = () => {
             </div>
             <div className="grid grid--1-col">
                 {projectInformation.map(obj => (
-                    <ProjectCart title={obj["title"]} about={obj["about"]} techUsed={obj["techUsed"]} picture={obj["picture"]} key={obj["key"]} />
+                    <ProjectCart title={obj["title"]} about={obj["about"]} techUsed={obj["techUsed"]} picture={obj["picture"]} linkUsed={obj["linkUsed"]} key={obj["key"]} />
                 ))}
 
             </div>

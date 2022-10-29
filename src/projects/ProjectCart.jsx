@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./ProjectCart.css";
 
 
-const ProjectCart = ({ title, about, techUsed, picture }) => {
+const ProjectCart = ({ title, about, techUsed, picture, linkUsed }) => {
     const [display, setDisplay] = useState("notDisplayed");
     const [hovering, setHovering] = useState("");
     const showButton = e => {
@@ -35,7 +35,7 @@ const ProjectCart = ({ title, about, techUsed, picture }) => {
             <div className="projectCart--info--img-cont">
                 <div className="projectCart--info--img-cont--enter" onMouseEnter={e => showButton(e)} onMouseLeave={e => hideButton(e)}>
                     <img className={`projectCart--info--img ${hovering}`} src={require(`./../imgs/${picture}.webp`)} alt="picture from the projects cart" />
-                    <a className={`${display}`} href="#">
+                    <a className={`${display}`} href={linkUsed} target="_blank" rel="noopener noreferrer">
                         <ion-icon name="open-outline"></ion-icon>
                     </a>
                 </div>

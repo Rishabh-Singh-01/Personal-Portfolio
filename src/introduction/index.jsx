@@ -33,7 +33,7 @@ const Introduction = () => {
                 <div className="introduction--cart-box">
                     <IntroCart icon="mail-outline" heading="Gmail" body="rishabhsinghom1515" />
                     <IntroCart icon="phone-portrait-outline" heading="Phone" body="+91-8527721714" />
-                    <IntroCart icon="calendar-outline" heading="Birthday" body="01-Sept-2000" />
+                    <IntroCart icon="body-outline" heading="Gender/Age" body="Male - 21" />
                     <IntroCart icon="location-outline" heading="Location" body="Noida,Uttar Pradesh" />
                     <IntroCart icon="medal-outline" heading="Specialty" body="Web Dev " />
                 </div>

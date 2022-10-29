@@ -13,19 +13,19 @@ const Resume = () => {
                     institute: "Jaypee Institute of Information Technology,Noida",
                     extra: "B.Tech - ECE",
                     duration: "2019-2023",
-                    about: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quos omnis eos cupiditate accusamus excepturi, est ipsa consequuntur quo sunt. Quas, cupiditate accusantium!"
+                    about: "Final year student pursuing Electronics and Communication Engineering with current cgpa of 7.7 while maintaning Web Dev as my main skill, both front and back end."
                 },
                 {
                     institute: "Modern School,Noida",
                     extra: "Higher Secondary",
                     duration: "2017-2018",
-                    about: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quos omnis eos cupiditate accusamus excepturi, est ipsa consequuntur quo sunt. Quas, cupiditate accusantium!"
+                    about: "Completed senior secondary school with percentage of 95.4% with main subject as physics , chemistry, maths , english and information practises."
                 },
                 {
                     institute: "Modern School , Noida",
                     extra: "Secondary",
                     duration: "2015-2016",
-                    about: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quos omnis eos cupiditate accusamus excepturi, est ipsa consequuntur quo sunt. Quas, cupiditate accusantium!"
+                    about: "Completed high school with cgpa of 10 with main subject as science , social studies , english , hindi and computer practises."
                 }
             ]
         },
@@ -37,19 +37,19 @@ const Resume = () => {
                     institute: "Thales, India",
                     extra: "Software Engineering Intern",
                     duration: "Feb 2023 - July 2023",
-                    about: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quos omnis eos cupiditate accusamus excepturi, est ipsa consequuntur quo sunt. Quas, cupiditate accusantium!"
+                    about: "Got offered internship in thales for 6 months as software engineer after clearing rigorous coding rounds and different in person interview both technincal and non tech round. Will start joining on Feb 23."
                 },
                 {
                     institute: "Aura Electronics",
                     extra: "Web Developer Intern",
                     duration: "June 2022 - July 2022",
-                    about: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quos omnis eos cupiditate accusamus excepturi, est ipsa consequuntur quo sunt. Quas, cupiditate accusantium!"
+                    about: "Build and Managed web server to display strong online presence . Also, managed different roles to ensure smooth operations, while collecting different data as per requirements."
                 },
                 {
                     institute: "Ezix Infrastructure Pvt Ltd",
                     extra: "Operations Intern",
                     duration: "Jan 2022 - March 2022",
-                    about: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quos omnis eos cupiditate accusamus excepturi, est ipsa consequuntur quo sunt. Quas, cupiditate accusantium!"
+                    about: "Collected and organised data of various resources used. Suggested strategies for efficient use of assets. Oversaw varying functions for organised conduct."
                 }
             ]
         }
