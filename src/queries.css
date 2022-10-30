@@ -130,7 +130,6 @@
 
     .container {
         max-width: 90vw;
-        margin: inherit auto;
     }
 
     .grid--2-col {
