@@ -335,12 +335,6 @@
     .map {
         height: 35rem;
     }
-
-    .toggle-container ion-icon {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-    }
 }
 
 

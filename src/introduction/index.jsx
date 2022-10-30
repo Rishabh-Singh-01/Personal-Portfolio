@@ -1,7 +1,7 @@
 // ASIDE FIGURE
 import "./index.css";
 import React, { useState } from "react";
-import myPicture from "./../My-Picture.png";
+import myPicture from "./../my-pic.jpg";
 import IntroCart from "./IntroCart";
 import IconBox from "./IconBox";
 

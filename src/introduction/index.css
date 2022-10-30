@@ -30,7 +30,10 @@
 }
 
 .introduction--top-box--img {
-    border-radius: 2rem;
+    border-radius: 50%;
+    width: 11rem;
+    height: auto;
+    overflow: hidden;
 }
 
 .introduction--top-box-cont {

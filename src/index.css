@@ -31,7 +31,7 @@
   --some-navy: rgb(108, 117, 125);
   --light-navy: #d3d8de;
   --lightest-navy: #6c757d;
-  --green: #39a388;
+  --green: #33937a;
   --dark-green: #28725f;
   --navy-shadow: rgb(108, 117, 125, 0.7);
   --background-small: #fff;
@@ -40,9 +40,9 @@
   /* above one used as main */
   --slate: #4d4d4d;
   --white: #222;
-  --border-gradient-onyx: linear-gradient(to top left, rgb(108, 117, 125, 0.5), rgb(173, 181, 189, 0.4));
-  --bg-gradient-jet: linear-gradient(to bottom right, rgb(108, 117, 125, 0.4), #adb5bd);
-  --bg-gradient-jet-inverse: linear-gradient(to top left, rgb(108, 117, 125, 0.4), #adb5bd);
+  --border-gradient-onyx: linear-gradient(to top left, rgb(108, 117, 125, 0.1), rgb(173, 181, 189, 0.9));
+  --bg-gradient-jet: linear-gradient(to bottom right, rgb(108, 117, 125, 0.2), #adb5bd);
+  --bg-gradient-jet-inverse: linear-gradient(to top left, #adb5bd, rgb(211, 216, 222, 0.2));
 }
 
 html {
